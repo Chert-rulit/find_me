@@ -13,3 +13,9 @@
 check_string = input("Write a string: ")
 
 count = {}
+
+for s in check_string:
+  if s in count:
+    count[s] += 1
+  else:
+    count[s] = 1
