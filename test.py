@@ -11,3 +11,5 @@
 #проверяет код, соединяет ветки, снова кладет на github.
 
 check_string = input("Write a string: ")
+
+count = {}
