@@ -23,3 +23,5 @@ for s in check_string:
 for key in count:
   if count[key] >= 1:
     print (key, count[key])
+
+max_num = 0
