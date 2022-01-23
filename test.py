@@ -25,3 +25,9 @@ for key in count:
     print (key, count[key])
 
 max_num = 0
+
+for word in count.keys():
+    if count[word] > max_num:
+        max_num = count[word]
+print("Max number:", max_num)
+
